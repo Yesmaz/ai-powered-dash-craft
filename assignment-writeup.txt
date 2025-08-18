@@ -1,0 +1,24 @@
+Assignment Write-up: AI-Generated Dashboard
+
+Prompt Used:
+"Create a professional React dashboard with TailwindCSS featuring a collapsible sidebar navigation, statistics cards showing key metrics (users, revenue, orders, conversion rate), and a data table with user management functionality including search and actions)."
+
+Changes Made:
+- Customized a brand-ready design system using HSL tokens and gradients
+- Added collapsible sidebar with active route states
+- Implemented statistics cards with icons and trend colors
+- Built a searchable user table with actions menu
+- Added routes for Users, Orders, Analytics, Revenue, Calendar, Billing, and Settings
+- Ensured responsive layout and smooth animations
+
+Challenges and Solutions:
+- Ensuring consistent theming: centralized all tokens in index.css and tailwind.config.ts
+- Route structure with shared layout: created a reusable DashboardLayout
+- Keeping TypeScript strict: defined interfaces and used typed lucide icons
+
+How to Run:
+1) npm install
+2) npm run dev
+
+Notes:
+This codebase is clean, responsive, and easy to brand by tweaking tokens in src/index.css.
